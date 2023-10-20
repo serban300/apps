@@ -103,7 +103,7 @@
     "@polkadot/rpc-augment": "^10.10.1",
     "@polkadot/rpc-core": "^10.10.1",
     "@polkadot/rpc-provider": "^10.10.1",
-    "@polkadot/types": "^10.10.1",
+    "@polkadot/types": "file:./../api/packages/types/build",
     "@polkadot/types-augment": "^10.10.1",
     "@polkadot/types-codec": "^10.10.1",
     "@polkadot/types-create": "^10.10.1",
@@ -120,5 +120,8 @@
     "@polkadot/x-textencoder": "^12.5.1",
     "@polkadot/x-ws": "^12.5.1",
     "typescript": "^5.2.2"
+  },
+  "overrides": {
+    "@polkadot/types": "file:./../api/packages/types/build"
   }
 }
